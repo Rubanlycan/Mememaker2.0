@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/actionBarBackground"
+    tools:ignore="ExtraText">
+
+    <TextView
+        android:id="@+id/btm_text_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Text Size"
+        android:textColor="#fff"
+        android:textSize="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <android.support.v7.widget.AppCompatSeekBar
+        android:id="@+id/seek1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:progressTint="@color/colorAccent"
+        android:thumbTint="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/txt_progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:gravity="right"
+        android:paddingRight="10dp"
+        android:textColor="#fff"
+        android:textSize="20dp" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/btm_text_rotate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Text Rotate"
+        android:textColor="#fff"
+        android:textSize="20dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+    <android.support.v7.widget.AppCompatSeekBar
+        android:id="@+id/seek2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:progressTint="@color/colorAccent"
+        android:thumbTint="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/txt_progress2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+          android:text="0"
+        android:gravity="right"
+        android:paddingRight="10dp"
+        android:textColor="#fff"
+        android:textSize="20dp" />
+
+    </LinearLayout>
+
+    <Switch
+        android:layout_marginTop="5dp"
+        android:id="@+id/switch_transparent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Transparent"
+        android:textSize="25dp"
+        android:textColor="#fff"
+        />
+
+
+</LinearLayout>
